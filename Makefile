@@ -11,7 +11,7 @@ clean:
 	rm -rf bin
 
 test:
-	go test -v -cover ./...
+	@go test -v -cover ./...
 
 
 .PHONY: test
